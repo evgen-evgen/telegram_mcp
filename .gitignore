@@ -12,8 +12,8 @@ coverage
 
 # logs
 logs
-_.log
-report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+*.log
+report.*.*.*.*.json
 
 # dotenv environment variable files
 .env
@@ -36,3 +36,7 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 # telegram session data & local config
 bot-data/
 !bot-data/config.example.yml
+
+# python bot ui
+bot-ui/.venv/
+bot-ui/__pycache__/
